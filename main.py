@@ -45,11 +45,11 @@ def make_huffman_tree(f):
 # perform a traversal on the prefix code tree to collect all encodings
 def get_code(node, prefix="", code={}): 
     # TODO - perform a tree traversal and collect encodings for leaves in code
-    if ((node.left == None)and(node.right==None))#if both are empty
-      code[node.data[1]] == prefix#set the prefix
+    if ((node.left == None)and(node.right==None)):#if both are empty
+      code[node.data[1]] = prefix#set the prefix
     if (node.left != None):#left node exists
       get_code(node.left,prefix+"0",code)#grab its code aka prefix and add 0
-    if (node.right != None)
+    if (node.right != None):
       get_code(node.right,prefix+"1",code)#grab and add 1
     return (code)#get the code we just found/made
   #length of this encoding is its cost
