@@ -1,7 +1,7 @@
 # CMPS 2200 Recitation 6
 ## Answers
 
-**Name:**_________________________
+**Name:**_kayla willis & cameron mclaren________________________
 
 
 Place all written answers from `recitation-06.md` here for easier grading.
@@ -9,7 +9,7 @@ Place all written answers from `recitation-06.md` here for easier grading.
 
 
 - **d.**
-
+ 
 File | Fixed-Length Coding | Huffman Coding | Huffman vs. Fixed-Length
 ----------------------------------------------------------------------
 f1.txt    |                     |                |
